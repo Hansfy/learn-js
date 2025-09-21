@@ -1,0 +1,42 @@
+body {
+  background: #f4f6fb;
+  font-family: "Segoe UI", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background: #fff;
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+h1 {
+  color: #2d3a4b;
+  margin-bottom: 1.5rem;
+}
+#roller {
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-bottom: 1.5rem;
+}
+#roller:hover {
+  background: #2563eb;
+}
+#randomNumber {
+  display: block;
+  font-size: 3rem;
+  color: #2563eb;
+  margin-top: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
