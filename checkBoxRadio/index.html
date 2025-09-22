@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkbox and Radio Button App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Pilih Course Favoritmu</h2>
+      <div class="form-group">
+        <input type="checkbox" id="subscribe" />
+        <label for="subscribe">Subscribe</label>
+      </div>
+      <div class="form-group">
+        <input type="radio" id="js" name="options" value="1" />
+        <label for="js">JavaScript</label>
+      </div>
+      <div class="form-group">
+        <input type="radio" id="ts" name="options" value="2" />
+        <label for="ts">TypeScript</label>
+      </div>
+      <div class="form-group">
+        <input type="radio" id="reactjs" name="options" value="3" />
+        <label for="reactjs">ReactJS</label>
+      </div>
+      <button id="btn" type="submit">Start Course</button>
+      <p id="subIndicator"></p>
+      <p id="learnIndicator"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
